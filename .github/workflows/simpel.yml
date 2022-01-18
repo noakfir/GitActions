@@ -1,8 +1,8 @@
 name: Shell Commands
 
-on: [push]
+on: push
 
-jobs:
+jobs :
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
@@ -11,4 +11,4 @@ jobs:
       - name: multiline script
         run : >
           node -v
-          nmp -v
+          npm -v
