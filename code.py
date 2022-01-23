@@ -5,3 +5,4 @@ df['a/b'] = df['a']/df['b']
 
 if math.isinf(df["a/b"][2]):
     raise ValueError
+    #hvhvh
