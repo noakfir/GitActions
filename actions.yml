@@ -13,5 +13,5 @@ jobs:
       - name: log greeting time
         run: echo "${{steps.greet.outputs.time}}"
       - name: check out
-        uses: actions/checkout@master
-
+        uses: actions/checkout@master 
+         
